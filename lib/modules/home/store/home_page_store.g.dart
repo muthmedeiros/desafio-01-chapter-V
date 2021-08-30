@@ -27,13 +27,13 @@ mixin _$HomePageStore on _HomePageStore, Store {
   final _$toDoListStreamAtom = Atom(name: '_HomePageStore.toDoListStream');
 
   @override
-  ObservableStream<List<ToDoItem>?> get toDoListStream {
+  ObservableStream<dynamic> get toDoListStream {
     _$toDoListStreamAtom.reportRead();
     return super.toDoListStream;
   }
 
   @override
-  set toDoListStream(ObservableStream<List<ToDoItem>?> value) {
+  set toDoListStream(ObservableStream<dynamic> value) {
     _$toDoListStreamAtom.reportWrite(value, super.toDoListStream, () {
       super.toDoListStream = value;
     });

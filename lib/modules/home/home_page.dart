@@ -103,11 +103,15 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         body: Observer(
-          builder: (_) => ToDoItemListView(
-            itemList: _store.itemList,
-            onDeleteItem: _store.deleteItem,
-            toogleItemState: _store.toogleItemState,
-          ),
+          builder: (_) => _store.toDoListStream.value != null
+              ? ToDoItemListView(
+                  itemList: _store.itemList,
+                  onDeleteItem: _store.deleteItem,
+                  toogleItemState: _store.toogleItemState,
+                )
+              : const Center(
+                  child: CircularProgressIndicator(),
+                ),
         ),
       ),
     );

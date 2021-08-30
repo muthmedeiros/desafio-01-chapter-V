@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "368446691550",
+    "project_id": "desafio-chapter-v-6482a",
+    "storage_bucket": "desafio-chapter-v-6482a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368446691550:android:a1f5050b031c8288038a4f",
+        "android_client_info": {
+          "package_name": "com.rocketseat.crud_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368446691550-i12d2t2utlk0q9ve2huh5grqfv26at5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rocketseat.crud_firebase",
+            "certificate_hash": "228e945148d7c3e9019054f2542602ddfca94e2d"
+          }
+        },
+        {
+          "client_id": "368446691550-65j8eokaiei3btcb0q6n33q964522icl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIIGF-yzSrIUW-4qweRghgjjdollWbUpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368446691550-65j8eokaiei3btcb0q6n33q964522icl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
